@@ -31,12 +31,17 @@ body {
     border: 2px solid rgb(237, 233, 223);
     border-radius: 5px;
     background-color: rgba(237, 233, 223, .2);
+    transition: all .09s;
 }
 
-span {
+kbd {
     font-size: 30px;
     color: rgb(237, 233, 223);
     align-self: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    font-family: 'Slabo 27px', serif;
+    box-shadow: none;
+    align-items: center;
 }
 
 p {
@@ -46,8 +51,7 @@ p {
 }
 
 .playing {
-    width: 95px;
-    height: 95px;
+    transform: scale(1.1);
     border: 2px solid #e0424d;
-    box-shadow: 6px 9px 21px 0 rgba(224,66,77,0.89);
+    box-shadow: 0 0 21px 0 rgba(224,66,77,0.89);
 }

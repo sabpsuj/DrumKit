@@ -1,5 +1,5 @@
-<!DOCUMENT>
-<html>
+<!DOCUMENT html>
+<html lang="eng">
     <head>
         <meta charset="UTF-8"/>
         <title>Crazy but simple drum kit - Js</title>
@@ -8,16 +8,25 @@
     </head>
     <body>
         <div class="keyboard">
-            <div class="key"><span>A</span><p>clap</p></div>
-            <div class="key"><span>S</span><p>hihat</p></div>
-            <div class="key"><span>D</span><p>kick</p></div>
-            <div class="key"><span>F</span><p>openhat</p></div>
-            <div class="key"><span>G</span><p>boom</p></div>
-            <div class="key"><span>H</span><p>ride</p></div>
-            <div class="key"><span>J</span><p>snare</p></div>
-            <div class="key"><span>K</span><p>tom</p></div>
-            <div class="key"><span>L</span><p>tink</p></div>
+            <kbd class="key"data-key="65">A<p>clap</p></kbd>
+            <kbd class="key" data-key="83">S<p>hihat</p></kbd>
+            <kbd class="key" data-key="68">D<p>kick</p></kbd>
+            <kbd class="key" data-key="70">F<p>openhat</p></kbd>
+            <kbd class="key" data-key="71">G<p>boom</p></kbd>
+            <kbd class="key" data-key="72">H<p>ride</p></kbd>
+            <kbd class="key" data-key="74">J<p>snare</p></kbd>
+            <kbd class="key" data-key="75">K<p>tom</p></kbd>
+            <kbd class="key" data-key="76">L<p>tink</p></kbd>
         </div>
+        <audio data-key="65" src="sounds/carDoor1.aiff.mp3"></audio>
+        <audio data-key="83" src="sounds/cheers.mp3"></audio>
+        <audio data-key="68" src="sounds/cwdboo.mp3"></audio>
+        <audio data-key="70" src="sounds/footstepsmarching.mp3"></audio>
+        <audio data-key="71" src="sounds/groans.mp3"></audio>
+        <audio data-key="72" src="sounds/applause.mp3"></audio>
+        <audio data-key="74" src="sounds/lcwdaugh.mp3"></audio>
+        <audio data-key="75" src="sounds/yell4.mp3"></audio>
+        <audio data-key="76" src="sounds/CAR-DOOR.mp3"></audio>
     <script src="js/script.js"></script>
     </body>
 </html>
