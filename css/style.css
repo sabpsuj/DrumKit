@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/fireworks.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Slabo 27px', serif;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: row;
+}
+
+.key{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border: 2px solid rgb(237, 233, 223);
+    border-radius: 5px;
+    background-color: rgba(237, 233, 223, .2);
+}
+
+span {
+    font-size: 30px;
+    color: rgb(237, 233, 223);
+    align-self: center;
+}
+
+p {
+    font-size: 20px;
+    color: #e0424d;
+    align-self: center;
+}
+
+.playing {
+    width: 95px;
+    height: 95px;
+    border: 2px solid #e0424d;
+    box-shadow: 6px 9px 21px 0 rgba(224,66,77,0.89);
+}
